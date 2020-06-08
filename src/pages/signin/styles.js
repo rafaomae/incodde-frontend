@@ -9,25 +9,29 @@ export default StyleSheet.create({
     flexDirection: "column",
     marginTop: 30,
   },
-  input: {
-    background: "#fff",
-    border: 0,
-    borderRadius: 4,
+  formRow: {
+    display: "flex",
     height: 44,
-    padding: "0 15px",
-    color: "#2a2a2a",
+    alignItems: "center",
+    justifyContent: "space-between",
+    background: "#fff",
     margin: "0 0 5px",
-    "::placeholder": {
-      color: "#2a2a2a",
+    borderRadius: 4,
+    padding: "0 15px",
+    ":nth-child(1n) > svg": {
+      cursor: "pointer",
     },
   },
-  input_error: {
+  input: {
+    border: 0,
+  },
+  inputError: {
     border: "1px solid red",
   },
   button: {
     margin: "5px 0 0",
     height: 44,
-    background: "#3b9eff",
+    background: "#2b2d2d",
     fontWeight: "bold",
     color: "#fff",
     border: 0,
@@ -35,10 +39,10 @@ export default StyleSheet.create({
     fontSize: 16,
     transition: "background 0.2s",
     ":hover": {
-      background: "#54aaff",
+      background: "#434747",
     },
   },
-  error_message: {
+  errorMessage: {
     width: "100%",
     marginTop: ".25rem",
     fontSize: "80%",

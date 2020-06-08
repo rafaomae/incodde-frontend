@@ -3,7 +3,7 @@ import { StyleSheet } from "aphrodite/no-important";
 export default StyleSheet.create({
   wrapper: {
     height: "100%",
-    background: "#d3d3d3",
+    background: "#f2f2f2",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
