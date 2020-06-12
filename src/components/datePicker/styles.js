@@ -1,12 +1,9 @@
 import { StyleSheet } from "aphrodite/no-important";
 
 export default StyleSheet.create({
-  wrapper: {
+  input: {
+    border: 0,
+    background: "inherit",
     width: "100%",
-    display: "flex",
-  },
-  content: {
-    padding: "2%",
-    width: "75%",
   },
 });

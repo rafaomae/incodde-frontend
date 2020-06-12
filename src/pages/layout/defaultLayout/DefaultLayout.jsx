@@ -1,11 +1,14 @@
 import React from "react";
+import SideBar from "../../../components/sideBar/SideBar";
+import { css } from "aphrodite";
+import styles from "./styles";
 
 export const DefaultLayout = ({ children }) => {
   return (
-    <>
-      <h1>Dale</h1>
-      <div>{children}</div>
-    </>
+    <div className={css(styles.wrapper)}>
+      <SideBar />
+      <div className={css(styles.content)}>{children}</div>
+    </div>
   );
 };
 export default DefaultLayout;

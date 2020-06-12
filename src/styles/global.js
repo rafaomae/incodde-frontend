@@ -32,12 +32,19 @@ const GlobalStyles = globalStyleSheet.create({
     },
     "*a": {
       textDecoration: "none",
+      color: "#2a2a2a",
     },
     "*ul": {
       listStyle: "none",
     },
     "*button": {
       cursor: "pointer",
+    },
+    "*textarea": {
+      font: "14px 'Roboto', sans-serif",
+    },
+    "*table": {
+      borderCollapse: "collapse",
     },
   },
 });
